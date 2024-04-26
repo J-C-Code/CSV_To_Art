@@ -23,7 +23,7 @@ def main():
         sys.exit("Wrong file type.")
     else:
         userFile = sys.argv[-1]
-        printFile(userFile)
+        print(printFile(userFile))
 
 if __name__ == "__main__":
     main()
